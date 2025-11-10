@@ -10,7 +10,7 @@ class LSTMAutoencoderTrainer:
     """
     Class để huấn luyện một mô hình LSTM Autoencoder và tính toán ngưỡng.
     """
-    def __init__(self, seq_len: int = 1, input_dim: int = 5, latent_dim: int = 64):
+    def __init__(self, seq_len: int = 5, input_dim: int = 5, latent_dim: int = 64):
         """
         Khởi tạo class trainer cho LSTM Autoencoder.
 
